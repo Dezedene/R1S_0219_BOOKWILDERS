@@ -6,6 +6,12 @@ section
 h2
 {padding:20px;}
 
+.presentation
+{
+    font-size: 1.3em;
+}
+
+
 .souligne
 {
     font-weight:bold;
