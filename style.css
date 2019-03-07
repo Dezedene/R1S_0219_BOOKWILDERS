@@ -49,7 +49,6 @@ color: #EC6D6A;
 .bouton
 {
     color: #FF8A8E;
-    
     border-radius: 5px;
     background-color: #F2EFEF;
     border: solid 2px #FF8A8E;
@@ -91,6 +90,7 @@ padding-top: 15px;
 {
 background-color: #E9ECEF;
 }
+
 .jumbotron
 {
     background-color: #424344;
@@ -112,4 +112,9 @@ background-color: #E9ECEF;
 .wcs
 {
     color: #FF5A5C;
+}
+
+.logomodal
+{
+    max-width: 110px;
 }
