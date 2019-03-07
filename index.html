@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="icon" type="image/png" href="https://i.imgur.com/z8lQPVD.png" />
     <title>Le book des Wilders</title>
 </head>
 
 <body>
     <header>
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid header">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -30,15 +29,17 @@
             </div>
         </div>
     </header>
-    <div class="container">
-        <p class="presentation text-justify">La Wild Code School est un réseau d'écoles proposant des formations courte et professionnalisante. Elles
+    <div class="container-fluid">
+        <p class="presentation text-justify">La Wild Code School est un réseau d'écoles proposant des formations courte
+            et professionnalisante. Elles
             permettent d'accéder à des métiers numériques d'avenir: développeur web ou mobile, data analyst, ou encore
-            product manager. Elle est présente dans 13 campus en France et 4 campus en Europe.</p> 
-            <p class="presentation text-justify">Cette page vous fera découvrir la promotion Javascript Février 2019 de Reims. </p>
+            product manager. Elle est présente dans 13 campus en France et 4 campus en Europe.</p>
+        <p class="presentation text-justify">Cette page vous fera découvrir la promotion Javascript Février 2019 de
+            Reims. </p>
         <section id="wilders" class="text-center">
             <h2>Les Wilders - Promo JS Février 2019</h2>
             <div class="ligne1 row no-gutters justify-content-between">
-                <article class="card col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
+                <article class="col-12 col-md-4 col-lg-3" style="width: 18rem;">
                     <div class="modal fade" id="AxelCModal" tabindex="-1" role="dialog"
                         aria-labelledby="AxelCModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -49,28 +50,32 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body row justify-content-center align-items-center">
-                                    <div class="col-12 col-md-6">
-                                        <img class="w-100 rounded-circle" src="https://i.imgur.com/aaTJkW8.jpg"
-                                            alt="photo Axel">
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <p class="souligne">Quelques mots de notre wilder</p>
-                                        <p class="text-justify">Développeur en formation, je suis courtois, travailleur
-                                            et ponctuel.
-                                            Recherche un stage afin de compléter ma formation.</p>
-                                        <div>
-                                            <p class="souligne">Langages de programmation</p>
-                                            <p>Java React HTML5.0 CSS3.0</p>
+                                <div class="modale">
+                                    <div class="modal-body row justify-content-center align-items-center">
+                                        <div class="col-12 col-md-6">
+                                            <img class="w-100 rounded-circle" src="https://i.imgur.com/aaTJkW8.jpg"
+                                                alt="photo Axel">
                                         </div>
-                                        <div>
-                                            <p class="souligne">Soft Skills</p>
-                                            <p>Travail d'équipe - Autonomie - Ponctualité</p>
-                                        </div>
-                                        <div>
-                                            <p class="souligne">Mobilité professionnelle</p>
-                                            <p>Prêt à prendre le train tout les jour si nécessaire. Disponibilité jusque
-                                                Paris.</p>
+                                        <div class="col-12 col-md-6">
+                                            <p class="souligne">Quelques mots de notre wilder</p>
+                                            <p class="text-justify">Développeur en formation, je suis courtois,
+                                                travailleur
+                                                et ponctuel.
+                                                Recherche un stage afin de compléter ma formation.</p>
+                                            <div>
+                                                <p class="souligne">Langages de programmation</p>
+                                                <p>Javascript React HTML5.0 CSS3.0</p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Soft Skills</p>
+                                                <p>Travail d'équipe - Autonomie - Ponctualité</p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Mobilité professionnelle</p>
+                                                <p>Prêt à prendre le train tout les jour si nécessaire. Disponibilité
+                                                    jusque
+                                                    Paris.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -93,12 +98,12 @@
                     </div>
                     <img src="https://i.imgur.com/aaTJkW8.jpg" class="card-img-top rounded-circle" alt="photo Axel">
                     <div class="card-body border-0">
-                        <h5 class="card-title">Axel CHANDELIER</h5>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#AxelCModal">Voir le
-                            profil</a>
+                        <h5 class="card-title font-weight-bold">Axel <br />CHANDELIER</h5>
+                        <button class="bouton"><a href="#" data-toggle="modal" data-target="#AxelCModal">Voir le
+                                profil</a></button>
                     </div>
                 </article>
-                <article class="card col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
+                <article class="col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
                     <div class="modal fade" id="GregoireSModal" tabindex="-1" role="dialog"
                         aria-labelledby="GregoireSModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -110,23 +115,31 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body row justify-content-center align-items-center">
-                                    <div class="col-12 col-md-6">
-                                        <img class="w-100 rounded-circle" src="https://i.imgur.com/xRGRdhs.jpg"
-                                            alt="photo Grégoire">
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <p class="souligne">Quelques mots de notre wilder</p>
-                                        <p class="text-justify">Avec un background de 5 ans en management et gestion,
-                                            j'ai décidé de me réorienter vers le Web. Curieux et déterminé, je me donne
-                                            toujours à 100% dans ce que j'entreprends.</p>
-                                        <div>
-                                            <p class="souligne">Soft Skills</p>
-                                            <p>Aime travailler en équipe, rigoureux et organisé. </p>
+                                <div class="modale">
+                                    <div class="modal-body row justify-content-center align-items-center">
+                                        <div class="col-12 col-md-6">
+                                            <img class="w-100 rounded-circle" src="https://i.imgur.com/xRGRdhs.jpg"
+                                                alt="photo Grégoire">
                                         </div>
-                                        <div>
-                                            <p class="souligne">Mobilité professionnelle</p>
-                                            <p>Reims - Bordeaux - Québec</p>
+                                        <div class="col-12 col-md-6">
+                                            <p class="souligne">Quelques mots de notre wilder</p>
+                                            <p class="text-justify">Avec un background de 5 ans en management et
+                                                gestion,
+                                                j'ai décidé de me réorienter vers le Web. Curieux et déterminé, je me
+                                                donne
+                                                toujours à 100% dans ce que j'entreprends.</p>
+                                            <div>
+                                                <div>
+                                                    <p class="souligne">Langages de programmation</p>
+                                                    <p>Javascript React HTML5.0 CSS3.0</p>
+                                                </div>
+                                                <p class="souligne">Soft Skills</p>
+                                                <p>Aime travailler en équipe, rigoureux et organisé. </p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Mobilité professionnelle</p>
+                                                <p>Reims - Bordeaux - Québec</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -149,12 +162,12 @@
                     </div>
                     <img src="https://i.imgur.com/xRGRdhs.jpg" class="card-img-top rounded-circle" alt="photo Grégoire">
                     <div class="card-body border-0">
-                        <h5 class="card-title">Grégoire SURAY</h5>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#GregoireSModal">Voir le
-                            profil</a>
+                        <h5 class="card-title font-weight-bold">Grégoire <br />SURAY</h5>
+                        <button class="bouton"><a href="#" data-toggle="modal" data-target="#GregoireSModal">Voir le
+                                profil</a></button>
                     </div>
                 </article>
-                <article class="card col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
+                <article class="col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
                     <div class="modal fade" id="JeremyFModal" tabindex="-1" role="dialog"
                         aria-labelledby="JeremyFModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -166,27 +179,29 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body row justify-content-center align-items-center">
-                                    <div class="col-12 col-md-6">
-                                        <img class="w-100 rounded-circle" src="https://i.imgur.com/pT1y0tp.jpg"
-                                            alt="photo Jérémy">
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <p class="souligne">Quelques mots de notre wilder</p>
-                                        <p class="text-justify">Après huit ans d'expériences dans le Tourisme, j'ai
-                                            décidé de me reconvertir afin que mon intérêt pour le web développement
-                                            devienne mon métier. </p>
-                                        <div>
-                                            <p class="souligne">Langages de programmation</p>
-                                            <p>Java React HTML5.0 CSS3.0</p>
+                                <div class="modale">
+                                    <div class="modal-body row justify-content-center align-items-center">
+                                        <div class="col-12 col-md-6">
+                                            <img class="w-100 rounded-circle" src="https://i.imgur.com/pT1y0tp.jpg"
+                                                alt="photo Jérémy">
                                         </div>
-                                        <div>
-                                            <p class="souligne">Soft Skills</p>
-                                            <p>Gestion de Projet, Autonomie, Curiosité</p>
-                                        </div>
-                                        <div>
-                                            <p class="souligne">Mobilité professionnelle</p>
-                                            <p>Région Parisienne, Région Grand Est</p>
+                                        <div class="col-12 col-md-6">
+                                            <p class="souligne">Quelques mots de notre wilder</p>
+                                            <p class="text-justify">Après huit ans d'expériences dans le Tourisme, j'ai
+                                                décidé de me reconvertir afin que mon intérêt pour le web développement
+                                                devienne mon métier. </p>
+                                            <div>
+                                                <p class="souligne">Langages de programmation</p>
+                                                <p>Javascript React HTML5.0 CSS3.0</p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Soft Skills</p>
+                                                <p>Gestion de Projet, Autonomie, Curiosité</p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Mobilité professionnelle</p>
+                                                <p>Région Parisienne, Région Grand Est</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -210,47 +225,51 @@
                     </div>
                     <img src="https://i.imgur.com/pT1y0tp.jpg" class="card-img-top rounded-circle" alt="photo Jérémy">
                     <div class="card-body border-0">
-                        <h5 class="card-title">Jérémy FIGUEIREDO</h5>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#JeremyFModal">Voir le
-                            profil</a>
+                        <h5 class="card-title font-weight-bold">Jérémy <br />FIGUEIREDO</h5>
+                        <button class="bouton"><a href="#" data-toggle="modal" data-target="#JeremyFModal">Voir le
+                                profil</a></button>
                     </div>
                 </article>
             </div>
             <div class="ligne2 row no-gutters justify-content-center mt-md-4">
-                <article class="card col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
+                <article class="col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
                     <div class="modal fade" id="MatthieuNModal" tabindex="-1" role="dialog"
                         aria-labelledby="MatthieuNModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <p class="souligne">Quelques mots de notre wilder</p>
+
                                     <h5 class="modal-title text-center w-100" id="MatthieuNModalLabel">Matthieu NICOLAS
                                     </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body row justify-content-center align-items-center">
-                                    <div class="col-12 col-md-6">
-                                        <img class="w-100 rounded-circle" src="https://i.imgur.com/CSB3fTd.jpg"
-                                            alt="photo Matthieu">
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <p class="text-justify">Après une première vie de contrôleur de gestion, j'ai
-                                            rejoint les rangs de la Wild Code School pour me reconvertir dans le
-                                            développement web. Je suis 100% motivé pour réussir cette nouvelle étape
-                                            professionnelle dans un domaine qui me passionne.</p>
-                                        <div>
-                                            <p class="souligne">Langages de programmation</p>
-                                            <p>Java React HTML5.0 CSS3.0</p>
+                                <div class="modale">
+                                    <div class="modal-body row justify-content-center align-items-center">
+                                        <div class="col-12 col-md-6">
+                                            <img class="w-100 rounded-circle" src="https://i.imgur.com/CSB3fTd.jpg"
+                                                alt="photo Matthieu">
                                         </div>
-                                        <div>
-                                            <p class="souligne">Soft Skills</p>
-                                            <p>Organisation - Ecoute - Rigueur</p>
-                                        </div>
-                                        <div>
-                                            <p class="souligne">Mobilité professionnelle</p>
-                                            <p>Reims - Paris</p>
+                                        <div class="col-12 col-md-6">
+                                            <p class="souligne">Quelques mots de notre wilder</p>
+                                            <p class="text-justify">Après une première vie de contrôleur de gestion,
+                                                j'ai
+                                                rejoint les rangs de la Wild Code School pour me reconvertir dans le
+                                                développement web. Je suis 100% motivé pour réussir cette nouvelle étape
+                                                professionnelle dans un domaine qui me passionne.</p>
+                                            <div>
+                                                <p class="souligne">Langages de programmation</p>
+                                                <p>Javascript React HTML5.0 CSS3.0</p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Soft Skills</p>
+                                                <p>Organisation - Ecoute - Rigueur</p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Mobilité professionnelle</p>
+                                                <p>Reims - Paris</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -273,12 +292,12 @@
                     </div>
                     <img src="https://i.imgur.com/CSB3fTd.jpg" class="card-img-top rounded-circle" alt="photo Matthieu">
                     <div class="card-body  border-0">
-                        <h5 class="card-title">Matthieu NICOLAS</h5>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#MatthieuNModal">Voir le
-                            profil</a>
+                        <h5 class="card-title font-weight-bold">Matthieu <br />NICOLAS</h5>
+                        <button class="bouton"><a href="#" data-toggle="modal" data-target="#MatthieuNModal">Voir le
+                                profil</a></button>
                     </div>
                 </article>
-                <article class="card col-12 col-md-4 col-lg-3 offset-lg-2 border-0" style="width: 18rem;">
+                <article class="col-12 col-md-4 col-lg-3 offset-lg-2 border-0" style="width: 18rem;">
                     <div class="modal fade" id="SebastienJModal" tabindex="-1" role="dialog"
                         aria-labelledby="SebastienJModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -290,27 +309,29 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body row justify-content-center align-items-center">
-                                    <div class="col-12 col-md-6">
-                                        <img class="w-100 rounded-circle" src="https://i.imgur.com/DCQ7d6f.jpg"
-                                            alt="photo Sébastien">
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <p class="souligne">Quelques mots de notre wilder</p>
-                                        <p class="text-justify">Désireux d'en apprendre plus sur le develloppement
-                                            web/mobile, j'ai décidé de me réorienter professionnellement et ainsi
-                                            pouvoir en faire mon futur métier.</p>
-                                        <div>
-                                            <p class="souligne">Langages de programmation</p>
-                                            <p>Java React HTML5.0 CSS3.0</p>
+                                <div class="modale">
+                                    <div class="modal-body row justify-content-center align-items-center">
+                                        <div class="col-12 col-md-6">
+                                            <img class="w-100 rounded-circle" src="https://i.imgur.com/DCQ7d6f.jpg"
+                                                alt="photo Sébastien">
                                         </div>
-                                        <div>
-                                            <p class="souligne">Soft Skills</p>
-                                            <p>Résolution des problemes - travail en équipe - motivation</p>
-                                        </div>
-                                        <div>
-                                            <p class="souligne">Mobilité professionnelle</p>
-                                            <p>Everywhere</p>
+                                        <div class="col-12 col-md-6">
+                                            <p class="souligne">Quelques mots de notre wilder</p>
+                                            <p class="text-justify">Désireux d'en apprendre plus sur le develloppement
+                                                web/mobile, j'ai décidé de me réorienter professionnellement et ainsi
+                                                pouvoir en faire mon futur métier.</p>
+                                            <div>
+                                                <p class="souligne">Langages de programmation</p>
+                                                <p>Javascript React HTML5.0 CSS3.0</p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Soft Skills</p>
+                                                <p>Résolution des problemes - travail en équipe - motivation</p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Mobilité professionnelle</p>
+                                                <p>Everywhere</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -334,24 +355,25 @@
                     <img src="https://i.imgur.com/DCQ7d6f.jpg" class="card-img-top rounded-circle"
                         alt="photo Sébastien">
                     <div class="card-body border-0">
-                        <h5 class="card-title">Sébastien JOLLY</h5>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#SebastienJModal">Voir le
-                            profil</a>
+                        <h5 class="card-title font-weight-bold">Sébastien <br />JOLLY</h5>
+                        <button class="bouton"><a href="#" data-toggle="modal" data-target="#SebastienJModal">Voir le
+                                profil</a></button>
                     </div>
                 </article>
             </div>
         </section>
         <section class="recrute">
             <div class="row justify-content-center">
-                <a class="btn btn-primary"
-                    href="https://wild-code-school.jobteaser.com/fr/recruiter_account/sign_in?back_to_after_login=%2Ffr%2Frecruiter_account%2Fjob_offers"
-                    role="button" target="_blank" style="width: 33%;">RECRUTEZ-LES !</a>
+                <button class="bouton"><a
+                        href="https://wild-code-school.jobteaser.com/fr/recruiter_account/sign_in?back_to_after_login=%2Ffr%2Frecruiter_account%2Fjob_offers"
+                        role="button" target="_blank" style="width: 33%;">Vous avez une offre de stage ? Cliquez ici
+                        !</a></button>
             </div>
         </section>
         <section id="team" class="text-center">
             <h2>La team - Formateurs et Campus Manager</h2>
             <div class="ligne1 row no-gutters justify-content-around">
-                <article class="card col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
+                <article class="col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
                     <div class="modal fade" id="ThomasCModal" tabindex="-1" role="dialog"
                         aria-labelledby="ThomasCModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -362,19 +384,21 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body row justify-content-center align-items-center">
-                                    <div class="col-12 col-md-6">
-                                        <img class="w-100 rounded-circle" src="https://i.imgur.com/MBDN1TF.jpg"
-                                            alt="photo Thomas">
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <div>
-                                            <p class="souligne">Son arcours</p>
-                                            <p>Java React HTML5.0 CSS3.0</p>
+                                <div class="modale">
+                                    <div class="modal-body row justify-content-center align-items-center">
+                                        <div class="col-12 col-md-6">
+                                            <img class="w-100 rounded-circle" src="https://i.imgur.com/MBDN1TF.jpg"
+                                                alt="photo Thomas">
                                         </div>
-                                        <div>
-                                            <p class="souligne">Une anecdote</p>
-                                            <p>Reims - Paris - Vers l'infini et au-delà</p>
+                                        <div class="col-12 col-md-6">
+                                            <div>
+                                                <p class="souligne">Son parcours</p>
+                                                <p></p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Une anecdote</p>
+                                                <p></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -393,12 +417,12 @@
                     </div>
                     <img src="https://i.imgur.com/MBDN1TF.jpg" class="card-img-top rounded-circle" alt="photo Thomas">
                     <div class="card-body border-0">
-                        <h5 class="card-title">Thomas CULDAUT</h5>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ThomasCModal">Voir le
-                            profil</a>
+                        <h5 class="card-title font-weight-bold">Thomas <br />CULDAUT</h5>
+                        <button class="bouton"><a href="#" data-toggle="modal" data-target="#ThomasCModal">Voir le
+                                profil</a></button>
                     </div>
                 </article>
-                <article class="card col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
+                <article class="col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
                     <div class="modal fade" id="EtienneRModal" tabindex="-1" role="dialog"
                         aria-labelledby="EtienneRModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -409,19 +433,21 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body row justify-content-center align-items-center">
-                                    <div class="col-12 col-md-6">
-                                        <img class="w-100 rounded-circle" src="https://i.imgur.com/sXLh5MY.jpg"
-                                            alt="photo Etienne">
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <div>
-                                            <p class="souligne">Son parcours</p>
-                                            <p>Java React HTML5.0 CSS3.0</p>
+                                <div class="modale">
+                                    <div class="modal-body row justify-content-center align-items-center">
+                                        <div class="col-12 col-md-6">
+                                            <img class="w-100 rounded-circle" src="https://i.imgur.com/sXLh5MY.jpg"
+                                                alt="photo Etienne">
                                         </div>
-                                        <div>
-                                            <p class="souligne">Une anecdote</p>
-                                            <p>Reims - Paris - Vers l'infini et au-delà</p>
+                                        <div class="col-12 col-md-6">
+                                            <div>
+                                                <p class="souligne">Son parcours</p>
+                                                <p></p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Une anecdote</p>
+                                                <p></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -440,12 +466,12 @@
                     </div>
                     <img src="https://i.imgur.com/sXLh5MY.jpg" class="card-img-top rounded-circle" alt="photo Etienne">
                     <div class="card-body border-0">
-                        <h5 class="card-title">Etienne RABIN</h5>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#EtienneRModal">Voir le
-                            profil</a>
+                        <h5 class="card-title font-weight-bold">Etienne <br />RABIN</h5>
+                        <button class="bouton"><a href="#" data-toggle="modal" data-target="#EtienneRModal">Voir le
+                                profil</a></button>
                     </div>
                 </article>
-                <article class="card col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
+                <article class="col-12 col-md-4 col-lg-3 border-0" style="width: 18rem;">
                     <div class="modal fade" id="ClementBModal" tabindex="-1" role="dialog"
                         aria-labelledby="ClementBModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg" role="document">
@@ -457,19 +483,21 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body row justify-content-center align-items-center">
-                                    <div class="col-12 col-md-6">
-                                        <img class="w-100 rounded-circle" src="https://i.imgur.com/3UHSr7d.jpg"
-                                            alt="photo Clément">
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <div>
-                                            <p class="souligne">Son parcours</p>
-                                            <p>Java React HTML5.0 CSS3.0</p>
+                                <div class="modale">
+                                    <div class="modal-body row justify-content-center align-items-center">
+                                        <div class="col-12 col-md-6">
+                                            <img class="w-100 rounded-circle" src="https://i.imgur.com/3UHSr7d.jpg"
+                                                alt="photo Clément">
                                         </div>
-                                        <div>
-                                            <p class="souligne">Une anecdote</p>
-                                            <p>Reims - Paris - Vers l'infini et au-delà</p>
+                                        <div class="col-12 col-md-6">
+                                            <div>
+                                                <p class="souligne">Son parcours</p>
+                                                <p></p>
+                                            </div>
+                                            <div>
+                                                <p class="souligne">Une anecdote</p>
+                                                <p></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -488,9 +516,9 @@
                     </div>
                     <img src="https://i.imgur.com/3UHSr7d.jpg" class="card-img-top rounded-circle" alt="photo Clément">
                     <div class="card-body border-0">
-                        <h5 class="card-title">Clément BECHETOILLE</h5>
-                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ClementBModal">Voir le
-                            profil</a>
+                        <h5 class="card-title font-weight-bold">Clément <br />BECHETOILLE</h5>
+                        <button class="bouton"><a href="#" data-toggle="modal" data-target="#ClementBModal">Voir le
+                                profil</a></button>
                     </div>
                 </article>
             </div>
@@ -498,19 +526,46 @@
     </div>
     <footer>
         <div class="card text-center">
-            <div class="card-header">
-                Contact
-            </div>
+            <h3 class="contact">Contact</h3>
+
             <div class="card-body">
                 <p class="card-text">Clément BECHETOILLE, Campus Manager de REIMS</p>
                 <p class="card-text">clement@wildcodeschool.fr</p>
-                <a href="https://wildcodeschool.fr/" target="_blank" class="btn btn-primary">Wild Code School</a>
-                <a href="https://www.linkedin.com/school/wild-code-school/" target="_blank"
-                    class="btn btn-primary">Linkedin</a>
-                <a href="https://www.facebook.com/wildcodeschool/" target="_blank" class="btn btn-primary">Facebook</a>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://wildcodeschool.fr/" target="_blank">
+                                <img class="img-fluid"
+                                    src="https://pbs.twimg.com/profile_images/1083713943938453505/CZG3c8mK_400x400.jpg"
+                                    alt="Responsive image"></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://ressources.blogdumoderateur.com/2014/08/linkedin-logo-e1407144392549.png"
+                                target="_blank">
+                                <img class="img-fluid"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW0m7yXW45tMa1MmBfOm904CyHUrPYTK8BZufKdA5O4NtvvSui"
+                                    alt="Responsive image"></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.facebook.com/wildcodeschool/" target="_blank">
+                                <img class="img-fluid"
+                                    src="http://school.streetpress.com/wp-content/uploads/2017/06/logo-facebook-1024x1024.png"
+                                    alt="Responsive image"></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.instagram.com/wildcodeschool/?hl=fr" target="_blank">
+                                <img class="img-fluid"
+                                    src="https://www.pingflow.com/wp-content/uploads/2017/06/instagram-logo.png"
+                                    alt="Responsive image"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
