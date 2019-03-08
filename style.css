@@ -49,7 +49,7 @@ color: #EC6D6A;
 }
 .modal-title
 {
-    font-size: 3em;
+    font-size: 2.6em;
     color: white;
 }
 
@@ -64,10 +64,12 @@ color: #EC6D6A;
 
 .bouton
 {
+   
     color: #FF8A8E;
     border-radius: 5px;
     background-color: #F2EFEF;
     border: solid 2px #FF8A8E;
+    font-size: 2em;
 }
 
 .bouton a
@@ -85,7 +87,11 @@ color: #EC6D6A;
 
 .bouton:hover
 {
-    border: none;
+    color: #FF8A8E;
+    border-radius: 5px;
+    background-color: #F2EFEF;
+    border: solid 2px #FF8A8E;
+    font-size: 2em;
 }
 
 
@@ -109,7 +115,7 @@ background-color: #E9ECEF;
 
 .jumbotron
 {
-    background-color: #424344;
+    background-color: #babdc1;
  
 }
 
