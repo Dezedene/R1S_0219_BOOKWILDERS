@@ -115,7 +115,7 @@ background-color: #E9ECEF;
 
 .jumbotron
 {
-    background-color: #babdc1;
+    background-color: #76797c;
  
 }
 
@@ -143,6 +143,12 @@ border: none;
 .wcs
 {
     color: #FF5A5C;
+}
+
+.wcs:hover
+{
+    text-decoration: none;
+    color: #FF8A8E;
 }
 
 .logomodal
