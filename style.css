@@ -2,13 +2,14 @@
 
 body
 {
-    background-color: #F2EFEF;
+    background-color: #cfcfd1;
     font-family: 'Varela Round', sans-serif;
 }
 
 section
 {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .header
@@ -29,10 +30,10 @@ margin-top: 30px;
 color: #EC6D6A;
 }
 
-.toto
+.intertitre
 {
-    padding:20px;
-    font-size: 3em;
+    padding:10px;
+    font-size: 2.8em;
 }
 
 .souligne
@@ -40,6 +41,21 @@ color: #EC6D6A;
     font-weight:bold;
     text-decoration: underline;
     padding-top: 10px;
+}
+
+.modal-header
+{
+    background-color: #FF8A8E;
+}
+.modal-title
+{
+    font-size: 3em;
+    color: white;
+}
+
+.modimg
+{
+    border: solid 3px #FF8A8E;
 }
 .modale
 {
@@ -69,7 +85,7 @@ color: #EC6D6A;
 
 .bouton:hover
 {
-    border: solid 2px #FF8A8E;
+    border: none;
 }
 
 
@@ -86,7 +102,7 @@ font-family: 'Varela Round', sans-serif;
 padding-top: 15px;
 }
 
-.card text-center
+.card
 {
 background-color: #E9ECEF;
 }
@@ -103,10 +119,19 @@ background-color: #E9ECEF;
     border: none;
     font-size: 1.4em;
 }
-
+.btn-primary:hover
+{
+background-color: #f7a5ab;
+border: none;
+}
 .imagebox
 {
     max-width: 110px;
+}
+
+.test
+{
+    max-width: 80%;
 }
 
 .wcs
@@ -117,12 +142,4 @@ background-color: #E9ECEF;
 .logomodal
 {
     max-width: 110px;
-}
-
-
-
-
-.intertitre
-{
-    padding-top: 20px;
 }
