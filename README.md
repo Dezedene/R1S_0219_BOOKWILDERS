@@ -1,6 +1,6 @@
-**Repository "BOOK des Wilders"**
+# BOOK DES WILDERS
 
-First project, web directory for Wild Code School Javascript students, February 2019 line up.
+First project for JS Students @Wildcodeschool Reims : a web directory for Wild Code School Javascript students, February 2019 line up.
 
 This first project is to introduce students to potential recruiters, and help them to find an internship.
 
